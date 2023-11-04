@@ -9,15 +9,15 @@ const ProblemInput: React.FunctionComponent = ()=>{
         <section className='flex flex-col gap-3 w-full p-6 border rounded shadow-neutral-200 shadow-md bg-white '>
           <div className='flex flex-col gap-1'>
             <label htmlFor="name" className='text-neutral-700'>Project Name</label>
-            <Input className='  shadow-neutral-100 shadow-md '/>
+            <Input className='  shadow-neutral-100 shadow-md text-neutral-600'/>
           </div>
           <div className='flex flex-col gap-1'>
             <label htmlFor="name" className='text-neutral-700'>Project Link</label>
-            <Input className='shadow-neutral-100 shadow-md'/>
+            <Input className='shadow-neutral-100 shadow-md text-neutral-600'/>
           </div>
           <div className='flex flex-col gap-1'>
             <label htmlFor="name" className='text-neutral-700'>Priority</label>
-            <Input className='shadow-neutral-100 shadow-md'/>
+            <Input className='shadow-neutral-100 shadow-md text-neutral-600'/>
           </div>
           <div>
             <Button className=' bg-orange-500 hover:bg-orange-400 shadow-neutral-200 shadow-md'
