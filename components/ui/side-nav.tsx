@@ -22,9 +22,9 @@ const SideNav: React.FunctionComponent<React.HTMLAttributes<HTMLDivElement>> = (
                 <SheetDescription>
                     {ContestMockData.map((data, index)=>{
                         return(
-                            <div className='flex flex-col gap-1 mb-3'>
+                            <div className='flex flex-col gap-1 mb-3' key={index}>
                                 <h2 className='text-md text-orange-500 font-semibold'>{data.platformName}</h2>
-                                <DataTable columns={columns} data={data.contests} key={index}/>
+                                <DataTable columns={columns} data={data.contests} />
                             </div>
                         )
                     })}
