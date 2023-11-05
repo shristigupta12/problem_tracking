@@ -18,7 +18,7 @@ const SideNav: React.FunctionComponent<React.HTMLAttributes<HTMLDivElement>> = (
             <SheetTrigger><Menu className='text-neutral-600 dark:text-neutral-400'/></SheetTrigger>
             <SheetContent className='w-[750px] dark:bg-neutral-900 dark:border-l-neutral-700'>
                 <SheetHeader>
-                <SheetTitle className='text-neutral-400 mx-auto mb-3 dark:text-neutral-400'>Contests</SheetTitle>
+                <SheetTitle className='text-neutral-400 mx-auto mb-3 dark:text-neutral-00'>Contests</SheetTitle>
                 <SheetDescription>
                     {ContestMockData.map((data, index)=>{
                         return(
