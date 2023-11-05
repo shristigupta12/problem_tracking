@@ -1,8 +1,6 @@
 "use client"
 import { Switch } from '@/components/ui/switch'
 import { SideNav } from '@/components/ui/side-nav'
-import { Sun } from "lucide-react"
-import { Moon } from "lucide-react"
 import { useTheme } from 'next-themes'
 
 
