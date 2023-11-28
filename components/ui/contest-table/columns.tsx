@@ -12,7 +12,7 @@ export const columns : ColumnDef<contests>[] = [
     },
     {
         accessorKey: "startTime",
-        header: "Start time"
+        header: "Time left"
     },
     {
         accessorKey: "duration",
