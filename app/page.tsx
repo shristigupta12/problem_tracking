@@ -7,7 +7,8 @@ import { tableData } from '@/mocks/mock-table-data'
 import { ProblemInput } from '@/components/ui/Problem-input'
 
 export default function Home() {
-  
+ 
+    
   return (
       <PageContainer className='flex flex-col gap-11'>
         <ViewContainer className="flex items-center justify-center ">
