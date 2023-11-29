@@ -74,7 +74,7 @@ const SideNav: React.FunctionComponent<React.HTMLAttributes<HTMLDivElement>> = (
                     {Array(1).fill("").map((data, index)=>{
                         return(
                             <div className='flex flex-col gap-1 mb-3' key={index}>
-                                <h2 className='text-md text-orange-500 font-semibold'>codeForces</h2>
+                                <h2 className='text-md text-orange-500 font-semibold'>CodeForces</h2>
                                 <DataTable columns={columns} data={contests} />
                             </div>
                         )
