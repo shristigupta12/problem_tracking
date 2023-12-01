@@ -63,7 +63,6 @@ const SideNav: React.FunctionComponent<React.HTMLAttributes<HTMLDivElement>> = (
           fetchContests();
         }, []);
 
-    console.log(contests)
     return(
         <Sheet>
             <SheetTrigger><Menu className='text-neutral-600 dark:text-neutral-400'/></SheetTrigger>

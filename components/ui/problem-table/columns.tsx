@@ -3,11 +3,10 @@
 import { ColumnDef } from "@tanstack/react-table"
 
 export type Problem = {
-    id: string,
-    priority: number
-    name: string,
-    link: string,
-    platform: string,
+    key:number
+  name: string
+  link: string
+  priority: string
 }
 
 export const columns : ColumnDef<Problem>[] = [
@@ -22,9 +21,5 @@ export const columns : ColumnDef<Problem>[] = [
     {
         accessorKey: "link",
         header: "Problem Link"
-    },
-    {
-        accessorKey: "platform",
-        header: "Platform"
-    },
+    }
 ]
