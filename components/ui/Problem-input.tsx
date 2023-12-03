@@ -59,6 +59,7 @@ const ProblemInput: React.FunctionComponent<ProblemInputProps> = ({ problemData,
   }
 
   return (
+    
     <section className='flex flex-col gap-3 w-full p-6 border rounded shadow-md  shadow-neutral-200 bg-white dark:border-neutral-700 dark:shadow-neutral-700 dark:bg-neutral-800 '>
       <div className='flex flex-col gap-1'>
         <label htmlFor="name" className='text-neutral-700 dark:text-neutral-50'>

@@ -64,6 +64,7 @@ const SideNav: React.FunctionComponent<React.HTMLAttributes<HTMLDivElement>> = (
         }, []);
 
     return(
+      
         <Sheet>
             <SheetTrigger><Menu className='text-neutral-600 dark:text-neutral-400'/></SheetTrigger>
             <SheetContent className='w-[1000px] dark:bg-neutral-900 dark:border-l-neutral-700'>
